@@ -1,0 +1,87 @@
+@font-face{
+  font-family: "DroidSerif";
+  src: url(../fuentes/droid-serif/DroidSerif-Bold.ttf);
+  src: url(../fuentes/droid-serif/DroidSerif-BoldItalic.ttf);
+  src: url(../fuentes/droid-serif/DroidSerif-Italic.ttf);
+  src: url(../fuentes/droid-serif/DroidSerif.ttf);
+}
+html{
+  background: color #9c9c9c; ;
+  margin-left: 12px;
+  margin-right: 12px;
+  
+}
+
+.menu{
+    width: 700px;
+    height: auto;
+    position: absolute;
+    display: inline-flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-content: center;
+    left: 30%;
+}
+.list{
+  list-style: none; 
+  display: inline-flex;
+}
+
+.list li a{
+  width: 180px;
+  background-color:none;
+  color: black;
+  font-family:"DroidSerif-Bold" ;
+  font-size: 19PX;
+  text-decoration:none ;
+  padding: 8px 10px;
+  display: block;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black ;
+  text-align: center;
+
+  
+}
+.list li a:hover{
+  background-color:#0075e5; 
+}
+.list li:hover .submenu{
+  display:block;
+}
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+.submenu li a{
+  border-top: none;
+  background-color:#0075e5; 
+  opacity: 90%;
+}
+
+.submenu li a:hover{
+  background-color: #2DFAF9;
+}
+header{
+  position: absolute;
+  width: 80px;
+}
+
+.logo{
+  margin-top: 10px;
+width: 80px;
+height: 78px;
+position: flex;
+}
+
+.banner{
+    width: 100%;
+    position: flex;
+    margin-top: 75px;
+    height: 300px;
+    border-radius: 8% / 70%;
+}
