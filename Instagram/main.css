@@ -1,0 +1,343 @@
+/* indicaciones del boy */
+body{
+    background-color: rgb(230, 229, 229);
+    margin: 0px;
+    width: 1920;
+    height: 1080;
+}
+/* contenedor de la barra de navegacion */
+.navegation{
+    background-color: white;
+    width: 1920px;
+    height: 120px;
+    position: relative;
+    left: 0px;
+    top :0px;
+    border-bottom: 1px solid rgb(199, 192, 192);
+}
+/* logo de instagram de la navegacion */
+.logo{
+    width: 40px;
+    height: 40px;
+    border-right: 1px solid black;
+    position: absolute;
+    left: 500px; 
+    top: 35px;
+    padding-right: 20px;
+}
+/* texto del logo de la navegacion */
+.textlogo{
+    width: 200px;
+    position: absolute;
+    left: 570px;
+}
+/* logo de buscar en la barra de navegacion */
+.search{
+    position: absolute;
+    left: 1100px;
+    top:60px;
+    width: 15px;
+}
+/* imput de buscar en la barra de navegacion */
+.site{
+    position: absolute;left: 1160px; top :51px;
+    text-align: center;
+    width: 220px;
+    height: 25px;
+    border: 2px solid black;
+}
+/* publicacion */
+.content{
+    width: 1000px;
+    height: 640px;
+    border: 1px solid rgb(199, 192, 192) ;
+    background-color: white;
+    position: relative; top: 100px; left: 400px;
+}
+/* contendor de imagen de la publicacion */
+.image{
+    width: 640px;
+    height: 640px;
+}
+
+/* contenedor apartado de la publicacion */
+.description{
+    position: relative;left: 640px;bottom: 640px;
+    width: 360px;
+    height: 640px;
+}
+
+/* apartado del perfil */
+.user{
+    position: relative;bottom: 0px;
+    width: 360px;
+    height: 90px;
+    border-bottom: 1px solid rgb(199, 192, 192);
+}
+/* imagen perfil del usuario */
+.perfil{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid rgb(219, 1, 172);
+    
+}
+/* nombre del usuario de la publicacion */
+.nameuser{
+    position:relative;
+    bottom: 40px;
+    left: 75px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* logo verificacion perfil */
+.verify{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    left: 145px;
+    bottom: 80px;
+  
+}
+/* circulo al lado del verificado */
+.circle{
+   position: relative;
+   width: 5px;
+   left: 148px;
+   bottom: 83px;
+
+}
+/* boton de seguir */
+.user a{
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(43, 160, 255);
+    left: 150px;
+    bottom: 78px;
+}
+/* primer circulo */
+.circle1{
+    position: relative;
+    width: 7px;
+    left: 220px;
+    bottom: 80px;
+ 
+/* segundo circulo */
+ }.circle2{
+    position: relative;
+    width: 7px;
+    left: 222px;
+    bottom: 80px;
+ 
+    /* tercer circulo */
+ }
+ .circle3{
+    position: relative;
+    width: 7px;
+    left: 224px;
+    bottom: 80px;
+ 
+ }
+/* lugar de la foto */
+ .position{
+    position: relative;
+    bottom: 92px;
+    left: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+ }
+ /* apartado de los comentarios */
+ .comments{
+    width: 360px;
+    height: 375px;
+    border-bottom: 1px solid rgb(199, 192, 192);
+ }
+
+ /* imagen perfil del usuario comentario */
+ .perfil2{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid rgb(219, 1, 172);
+    
+}
+
+/* post del artista   */
+.post{
+    position: relative;
+    left: 75px;
+    bottom: 60px;
+    width: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.post span{
+    font-weight: bold;
+}
+/* corazon del post */
+.heart{
+    position: relative;
+    left: 75px;
+    bottom: 72px;
+    width: 20px;
+}
+/* parte del post del artista */
+.post2{
+    position: relative;
+    left: 100px;
+    bottom: 115px;
+    width: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* tiempos de posteado el post */
+.timepost{
+    position: relative;
+    left: 80px;
+    bottom: 115px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color:rgb(199, 192, 192) ;
+}
+/* logo de more */
+.more{
+    position: relative;
+    left: 160px;
+    bottom: 100px;
+    width: 40px;
+}
+/* foto de perfil del seguidor */
+.perfilclient{
+    position: relative;
+    right: 28px;
+    bottom: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    
+}
+/* nombre del seguidor */
+.postclient span{
+    font-weight: bold;
+}
+
+/* post del seguidor  */
+.postclient{
+    position: relative;
+    left: 75px;
+    bottom: 77px;
+    width: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* corazones del comentario del seguidor */
+
+.heart1{
+    position: relative;
+    left: 185px;
+    bottom: 110px;
+    width: 20px;
+}
+.heart2{
+    position: relative;
+    width: 20px;
+    bottom: 110px;
+    left: 180px;
+}
+.heart3{
+    position: relative;
+    left: 176px;
+    bottom: 110px;
+    width: 20px;
+}
+/* tiempo de haber posteado el comentario del seguidor */
+.timepost2{
+    position: relative;
+    left: 80px;
+    bottom: 115px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color:rgb(199, 192, 192) ;
+}
+.timepost2 span{
+    padding-left: 30px;
+}
+/* contenedor de los likes y estadisticas de la publicacion */
+.likes{
+    width: 360px;
+    height: 108px;
+    border-bottom: 1px solid rgb(199, 192, 192);
+}
+
+/* logo del like */
+.like{
+    position: relative;
+    width: 25px;
+    top: 10px;
+    left: 10px;
+}
+/* logo del comentario */
+.commentimg{
+    position: relative;
+    width: 25px;
+    top: 10px;
+    left: 25px;
+}
+/* logo del enviar o compartir */
+.share{
+    position: relative;
+    width: 25px;
+    top: 10px;
+    left: 40px;
+}
+/* logo de añadir a favoritos */
+.add{
+    position: relative;
+    width: 22px;
+    top: 10px;
+    left: 230px;
+}
+/* numero de likes de la publicacion */
+.nlikes{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    left: 13px;
+}
+/* fecha de la publicacion */
+.timepost3{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    color:rgb(199, 192, 192) ;
+    bottom: 3px;
+    left: 11px;
+}
+/* contenedor del apartado de inicio de sesion */
+.sesion{
+    position: relative;
+    width: 360px;
+    height: 65px;
+}
+.initial{
+    position: relative;
+    left: 10px;
+    width: 320px;
+    bottom: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color:rgb(199, 192, 192) ;;
+}
+.initial a{
+    text-decoration: none;
+}
+
+
