@@ -2,6 +2,7 @@
 html{
     background-color:rgb(255, 211, 145);
 }
+
 .cont{
     display: flex;
     list-style: none;
