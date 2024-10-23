@@ -1,0 +1,42 @@
+
+html{
+    background-color:rgb(255, 211, 145);
+}
+.cont{
+    display: flex;
+    list-style: none;
+    background-color: rgb(255, 211, 145);
+    width: 500px;
+    margin-top: 50px;
+    margin-left:40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.cont li{
+    
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+.cont li:hover{
+    opacity: 40%;
+    
+}
+.cont li a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.logo{
+    width: 70px;
+    position: relative;
+    left: 2px;
+    bottom: 120px;
+}
+.logo img{
+    width: 170px;
+    height: 180px;
+    background-color: black;
+}
